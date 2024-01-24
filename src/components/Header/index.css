@@ -1,0 +1,57 @@
+/* Write your CSS code here */
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.wave-name {
+  font-family: 'Roboto';
+  margin-right: 14px;
+}
+
+.nav-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-items-container {
+    width: 30%;
+  }
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: #12022f;
+  font-family: 'Roboto';
+}
